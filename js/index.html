@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    ///Functions
+
+    var myMessage = "lorem ippim dolor sit, gtdgf dfgeye fdetg weterc fh  ";
+   // var strReplace ="dolor sit"
+    console.log(myMessage)
+
+    for(var i=0; i<mymesaage.length; i++){
+        //console.log(myMessage[i])
+        if(myMessage.slice(i,i+9) == "dolor sit"){
+            myMessage=myMessage.slice(0,i) +"Hellow World"+ myMesage.slice(1+9)
+        }
+    }
+// OR
+    var myMessage = "lorem ippim dolor sit, gtdgf dfgeye fdetg weterc fh  ";
+    var strReplace ="dolor sit"
+    console.log(myMessage)
+
+    for(var i=0; i<mymesaage.length; i++){
+        //console.log(myMessage[i])
+        if(myMessage.slice(i,i+strReplace.length ) == strReplace){
+            myMessage=myMessage.slice(0,i) +"Hellow World"+ myMesage.slice(1+strReplace)
+        }
+    }
+
+    //////////////////////////////////////////////////////////
+    var myMsg = "do for yourself, also do for others"
+    console.log(myMsg.indexOf("do"))
+    console.log(myMsg.lastindexOf("do")) //last time kab occr hua tha
+
+    console.log(myMsg.charAt(1)) //index ka charcter selct kary ga
+    console.log(myMsg.replace("yourself", "others"))
+    console.log(myMsg.replace("do", "others")) //phly waly do ko change kary ga
+    console.log(myMsg.replace(/do/g, "others"))
+    //g ka matlb globali matlb jahn jahn do hoga sab ko chnge kary ga
+
+    var myMessage = "lorem ippim dolor sit, gtdgf dfgeye fdetg weterc fh  ";
+    var strReplace ="dolor sit"
+    for(var i=0; i<mymesaage.length; i++){
+        //console.log(myMessage[i])
+        if(myMessage.slice(i,i+strReplace.length ) == strReplace){
+            myMessage=myMessage.slice(0,i) +"Hellow World"+ myMesage.slice(1+strReplace)
+        }
+    }
+    console.log(myMessage.replace(strReplace, "Hello World"))
+
+    //extension : code snapshot
+    //cntrl g 
+    //code snapshot kholo serch bar sy
+    //jis code ko selct karogy woh snapshot main aage ga
+    //for screenshot of the code 
+
+
+
+
+
+    ///////////////
+    //Math functions
+
+    math.random()
+    // karengy toh 0 sy 1 ky darmiyan numbers dy ga
+    //output: 0.0076576
+
+    math.random()*1000
+    //1000 tak hoga, output:735
+
+    math.random(1.7654)
+    //output: 2
+
+    //cell up0er bound
+    //floor lower bound
+
+    math.floor(1.9)
+    //1
+
+    math.ceil(1.1)
+    //2
+
+
+    var numb = 1.85556578769
+    numb.toFixed(2)
+    //1.85
+
+    var myage =24
+    myage.toString()
+    //'24'
+
+    var myAge ="24.789"
+    parseInt(myAge)
+    //parseInt: is main floting point hat jaengi
+
+    parsefloat(myAge)
+    //point main aaega
+
+    Number(myAge)
+    //same hi aaega
+
+
+
+//github repo main ja ky dot ko pree karo woh vs code py aap ko code dekha dyga
+//auto rename tag : extension
+//opening ko chnge karengy end wala khud chnge ho jae ga
+</script>
+</html>
