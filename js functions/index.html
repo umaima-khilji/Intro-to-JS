@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    
+    var current =new Date()
+    console.log(current.getDate())
+    console.log(current.getDay())
+    console.log(current.getMonth())
+    console.log(current.getFullYear())
+
+    //var DOB new Date("july 19 1999")
+    var DOB = new Date()
+    DOB.setDate(19)
+    DOB.setMonth(6)
+    DOB.setFullYear(1999)
+    console.log(DOB)
+
+    var myage = current - DOB
+    console.log(myAge/(1000*60*60*24*365.259))
+
+    //Functions:
+    //this is function efination
+    //greet is variable here
+     function toCapCase(user,greet="hello"){
+       // console.log("Runing")
+     //  return greet = " Sahab" +1234
+     var num = 3
+     return greet+3+ user.charAt(0).toUpperCase()+user.slice(1).lowerCase()
+     }
+     var caps  = toCapCase("usama","salam")
+     var caps2  = toCapCase("sawaira","hi")
+     var caps3  = toCapCase("ifra")
+     var caps4  = toCapCase("umaima")
+     var caps5  = toCapCase("iqra")
+     var caps6  = toCapCase("dua")
+
+
+     //function calling
+console.log(num)
+    // console.log(caps.caps1,caps2,caps3,caps4,caps5,caps6)
+     //yeh abhi khuch return nhi kary ga jab aap return likhen gy toh woh phir dega 
+     //var caps = toCapCase()
+     //console.log(caps)
+
+
+
+</script>
+</html>
